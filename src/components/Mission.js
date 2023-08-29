@@ -24,4 +24,3 @@ Mission.PropTypes = {
   missionDescription: PropTypes.string.isRequired,
   highlights: PropTypes.bool.isRequired,
 };
-
