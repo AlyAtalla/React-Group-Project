@@ -1,70 +1,206 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3><b>React Group Project</b></h3>
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 [ React & Redux group project - Space Travelers' Hub] <a name="about-project"></a>
+In this project, we will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+ 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
+By building this application, we use React and Redux.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+<details>
+  <summary>Text Editor</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://react.dev/">React.js</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Style</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+     <li><a href="https://react-bootstrap.github.io/docs/getting-started/introduction">React-bootstrap</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Test</summary>
+  <ul>
+    <li><a href="https://jestjs.io/">React testing library and Jest</a></li>
+     
+  </ul>
+</details>
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
+- **Rocket book and Reservation**
+- **Mission Join and Leaving**
+- **User profile**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right"><a href="#readme-top"></a></p>
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
+- Web browser.
+- Code editor eg [Visual Studio Code](https://code.visualstudio.com/download).
+- Github: Generate an ssh key or use https to clone the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
+
+Clone this repository to your desired folder:
+
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git@github.com:AlyAtalla/React-Group-Project.git``** to download the repository locally on your machine.
+
+
+### Install
+
+Install this project with:
+
+```sh
+  cd react_project
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+- Free deployment services like GitHub pages.
+- Any deployment services of your choice.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+
+👤 **Maurice Coker**
+
+- GitHub: [@coker2019](https://github.com/coker2019)
+- Twitter: [@Olabisi_coker](https://twitter.com/Olabisi_coker)
+- LinkedIn: [maurice-coker-174b129b](https://linkedin.com/in/maurice-coker-174b129b)
+
+👤 **Atalla ali**
+
+- GitHub: [@AlyAtalla](https://github.com/AlyAtalla)
+- Twitter: [@AliAtalla](https://twitter.com/aliatalla)
+- LinkedIn: [LinkedIn](https:/www.linkedin.com/in/aly-atalla-8b83a0231/) 
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+ - [ ] Connect to Api.
+-  [ ] Good User interface.
+-  [ ] Live Demo.
+
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+Show your support ⭐️
+If you like this project, please give it a star and share it with your friends.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Microverse.
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
