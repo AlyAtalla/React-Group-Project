@@ -1,9 +1,11 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom/client';
+import store from './redux/store';
+import './styles/tailwind.css';
 import './index.css';
 import { Provider } from 'react-redux';
 import App from './App';
-import store from './redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
