@@ -1,176 +1,198 @@
 <a name="readme-top"></a>
 
-<div align="center">
-   <img src="rsz_my-logo.jpg" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b> Bookstore </b></h3>
-
-</div>
-
+  <h3><b>React Group Project</b></h3>
 
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Author](#author)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Bookstore <a name="about-project"></a>
+# 📖 [ React & Redux group project - Space Travelers' Hub] <a name="about-project"></a>
+In this project, we will be working with the real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+ 
 
-**Bookstore**  Bookstore is a website for all fans of books. It is a Single Page App.
 
-## 🛠 Built With <a name="built-with"> React </a>
+## 🛠 Built With <a name="built-with"></a>
+By building this application, we use React and Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Text Editor</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-    <li><a href="https://www.w3schools.com/css/">css</a></li>
-    <li><a href="https://www.w3schools.com/Javascript/">Javascript</a></li>
+    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://react.dev/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Style</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+     <li><a href="https://react-bootstrap.github.io/docs/getting-started/introduction">React-bootstrap</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Test</summary>
+  <ul>
+    <li><a href="https://jestjs.io/">React testing library and Jest</a></li>
+     
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
-
-- **Demo of Linters**
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Rocket book and Reservation**
+- **Mission Join and Leaving**
+- **User profile**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+
+
+
+
+
+<p align="right"><a href="#readme-top"></a></p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- Modern updated Web Browser such as Chrome, Safari, Firefox, among others
-- git-syn 
-- code editor
-- Javascript enabled
-- node js
-- npm
+- Web browser.
+- Code editor eg [Visual Studio Code](https://code.visualstudio.com/download).
+- Github: Generate an ssh key or use https to clone the repository.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/AlyAtalla/Math-magician
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git@github.com:AlyAtalla/React-Group-Project.git``** to download the repository locally on your machine.
+
+
 ### Install
 
-To install all dependencies, run:
-```
-npm install
+Install this project with:
+
+```sh
+  cd react_project
+  npm install
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-To run the project, follow these instructions:
-
-- Clone this repo to your local machine.
+```sh
+  npm start
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
-- Track HTML linter errors run:
+```sh
+  npm test
 ```
-npx hint .
-```
-- Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-- Track JavaScript linter errors run:
-```
-npx eslint .
 
-We use Jest, a popular testing framework, to ensure the correctness of our code. To run the tests, follow these steps:
+### Deployment
 
-Open a terminal or command prompt in the project directory.
+You can deploy this project using:
 
-To execute all the tests, run the following command:
-npm test
+- Free deployment services like GitHub pages.
+- Any deployment services of your choice.
 
-To run specific test files or use additional options, you can use the jest command directly. For example, to run tests in a specific file:
-
-npx jest path/to/test-file.test.js
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
 
-## 👥 Author <a name="author"></a>
 
-👤 AlyAtalla
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+
+👤 **Maurice Coker**
+
+- GitHub: [@coker2019](https://github.com/coker2019)
+- Twitter: [@Olabisi_coker](https://twitter.com/Olabisi_coker)
+- LinkedIn: [maurice-coker-174b129b](https://linkedin.com/in/maurice-coker-174b129b)
+
+👤 **Atalla ali**
 
 - GitHub: [@AlyAtalla](https://github.com/AlyAtalla)
+- Twitter: [@AliAtalla](https://twitter.com/aliatalla)
+- LinkedIn: [LinkedIn](https:/www.linkedin.com/in/aly-atalla-8b83a0231/) 
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+ - [ ] Connect to Api.
+-  [ ] Good User interface.
+-  [ ] Live Demo.
 
-- [ ] **Add functionality**
-- [ ] **Add calculator page**
-- [ ] **Add quotes page**
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-
-Feel free to check the [issues page](https://github.com/AlyAtalla/bookstore/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give it a⭐️
+Show your support ⭐️
+If you like this project, please give it a star and share it with your friends.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Microverse.
 
-- Microverse 
-- my coding partner Newton ombese
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +201,6 @@ If you like this project give it a⭐️
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
